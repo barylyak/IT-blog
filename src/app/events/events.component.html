@@ -1,0 +1,15 @@
+<h1>IT BLOG</h1>
+<h2>Статті по темі Події</h2>
+<article class="article" *ngFor="let post of postlist">
+  <div class="post-item">
+    <div class="img">
+      <img src="{{post.img}}" alt="" class="post-img">
+    </div>
+    <div class="post-description">
+      <h2 class="post-title">{{post.title}}</h2>
+      <p class="post-text">{{post.description}}</p>
+      <button routerLink="/post/{{post.id}}" type="button" class=" btn btn-secondary">Перейти</button>
+    </div>
+  </div>
+</article>
+<button type="button" class="btn btn-success add-new-btn"><a class="nav-link" [routerLink]="['/']">Повернутись до усіх статей</a></button>

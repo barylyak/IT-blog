@@ -1,0 +1,12 @@
+.head{
+  position: fixed;
+  width: 100%;
+}
+.main{
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 30%;
+  height: 100%;
+  width: 50%;
+  z-index: 100;
+}

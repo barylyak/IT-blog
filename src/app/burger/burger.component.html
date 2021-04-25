@@ -1,0 +1,22 @@
+<div class="navigation">
+<div class="burger">
+
+  <ng-sidebar-container>
+    <ng-sidebar [opened]="opened" >
+      <button (click)="toggleSidebar()" type="button" class="btn btn-danger">Закрити</button>
+      <ul class="menu nav nav-pills">
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/interview']" routerLinkActive="active">Інтервю</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/updates']" routerLinkActive="active">Новини</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="['/events']" routerLinkActive="active">Події</a></li>
+      </ul>
+    </ng-sidebar>
+    <div ng-sidebar-content>
+      <div class="nav">
+      <button (click)="toggleSidebar()" class="sidebar-toggle">  <i class="fas fa-bars"></i></button>
+        <button (click)="openDialog()" type="button" class="btn btn-dark add-new-btn">Добавити статтю</button>
+      </div>
+    </div>
+  </ng-sidebar-container>
+
+</div>
+</div>

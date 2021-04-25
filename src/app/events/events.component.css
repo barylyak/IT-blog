@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+h2{
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+.post-item{
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.img{
+  margin-right: 40px;
+  max-width: 150px;
+  max-height: 150px;
+}
+.post-img{
+  width: 100%;
+  height: 100%;
+}
+.post-btn{
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: auto;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

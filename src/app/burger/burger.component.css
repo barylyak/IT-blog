@@ -1,0 +1,49 @@
+.sidebar-toggle {
+  top: 2rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  animation: bounce 2s ease-in-out infinite;
+  margin-left: 3%;
+  background: transparent;
+  border: transparent;
+}
+
+.add-new-btn{
+  margin-right: 3%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ng-sidebar-container{
+  height:40vh;
+}
+
+::ng-deep .ng-sidebar {
+  background-color: #EEFFEE;
+  width: 15%;
+  padding: 2%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.menu {
+  width: 100%;
+  margin-top: 2em;
+  display: block;
+}
+
+.menu li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}

@@ -1,0 +1,14 @@
+<h1>IT BLOG</h1>
+<article class="article" *ngFor="let post of postsList">
+  <div class="post-item">
+    <div class="img">
+      <img src="{{post.img}}" alt="" class="post-img">
+    </div>
+    <div class="post-description">
+      <h2 class="post-title">{{post.title}}</h2>
+      <p class="post-text">{{post.description}}</p>
+      <button routerLink="/post/{{post.id}}" type="button" class=" btn btn-secondary">Перейти</button>
+    </div>
+  </div>
+</article>
+
